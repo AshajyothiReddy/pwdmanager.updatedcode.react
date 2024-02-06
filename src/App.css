@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #7683cb;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  height: 90px;
+  width: 150px;
+  align-self: flex-start;
+  margin: 10px;
+}
+
+.add-password-container {
+  background-color: #454f84;
+  width: 80%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+  margin-bottom: 5px;
+}
+
+.add-new-pwd-container {
+  width: 50%;
+  background-color: #5763a5;
+  padding: 20px;
+  justify-content: space-around;
+  border-radius: 3px;
+}
+
+.heading {
+  color: white;
+  font-size: 18px;
+  font-family: roboto;
+}
+
+.password-manager-img {
+  width: 50%;
+}
+
+.input-container {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.input-logo-img {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+
+.input-text-container {
+  height: 40px;
+  width: 100%;
+}
+
+.add-button {
+  height: 38px;
+  width: 60px;
+  background-color: #0b69ff;
+  color: white;
+  align-self: flex-start;
+}
+
+.password-manager-container {
+  background-color: #454f84;
+  width: 80%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading-password-img-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.line {
+  color: white;
+  width: 100%;
+}
+
+.search-input-container {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.no-passwords-img-container {
+  align-self: center;
+}
+
+.no-password-img {
+  height: 250px;
+  width: 250px;
+}

@@ -1,0 +1,45 @@
+<ul className="pwd-list">
+              {passwordSearchResults.map(each => (
+                <PasswordItem
+                  key={each.id}
+                  website={each.website}
+                  username={each.username}
+                  deletePassword={this.deletePassword}
+                />
+              ))}
+            </ul>
+
+
+ renderPasswordsList = () => {
+    const {passwordsList} = this.state
+    return (
+      <ul>
+        {passwordsList.map(each => (
+          <PasswordItem
+            key={each.id}
+            username={each.username}
+            website={each.website}
+            deletePassword={this.deletePassword}
+          />
+        ))}
+      </ul>
+    )
+  }
+
+  
+  renderVisiblePasswordsList = () => {
+    const {passwordsList} = this.state
+    return (
+      <ul>
+        {passwordsList.map(each => (
+          <RenderPasswordsVisible
+            key={each.id}
+            username={each.username}
+            website={each.website}
+            password={each.password}
+            deletePassword={this.deletePassword}
+          />
+        ))}
+      </ul>
+    )
+  }           
